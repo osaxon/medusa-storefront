@@ -4,6 +4,7 @@ import clsx from "clsx"
 import React from "react"
 import PaymentStripe from "../payment-stripe"
 import PaymentTest from "../payment-test"
+import {KlarnaCheckoutComponent} from "../klarna-checkout-component"
 
 type PaymentContainerProps = {
   paymentSession: PaymentSession
@@ -84,7 +85,7 @@ const PaymentElement = ({
       )
     case "manual":
       // We only display the test payment form if we are in a development environment
-      return process.env.NODE_ENV === "development" ? <PaymentTest /> : null
+      return process.env.NODE_ENV === "development" ? <PaymentTest /> : <KlarnaCheckoutComponent />
     default:
       return null
   }

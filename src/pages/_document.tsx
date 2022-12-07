@@ -15,6 +15,8 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
             rel="stylesheet"
           />
+            {/* Klarna CDN */}
+          <script src='https://x.klarnacdn.net/kp/lib/v1/api.js' async></script>
         </Head>
         <body>
           <Main />
