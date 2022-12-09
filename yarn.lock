@@ -5838,7 +5838,7 @@
   "version" "1.4.10"
 
 "redeyed@~2.1.0":
-  "integrity" "sha1-iYS1gV2ZyyIEacme7v/jiRPmzAs= sha512-FNpGGo1DycYAdnrKFxCMmKYgo/mILAqtRYbkdQD8Ep/Hk2PQ5+aEAEx+IU713RTDmuBaH0c8P5ZozurNu5ObRQ=="
+  "integrity" "sha1-iYS1gV2ZyyIES/O/A/P7v/jiRPmzAs= sha512-FNpGGo1DycYAdnrKFxCMmKYgo/mILAqtRYbkdQD8Ep/Hk2PQ5+aEAEx+IU713RTDmuBaH0c8P5ZozurNu5ObRQ=="
   "resolved" "https://registry.npmjs.org/redeyed/-/redeyed-2.1.1.tgz"
   "version" "2.1.1"
   dependencies:
