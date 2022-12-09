@@ -42,7 +42,7 @@ const ImageOrPlaceholder = ({
       layout="fill"
       objectFit="cover"
       objectPosition="center"
-      className="absolute inset-0"
+      className="absolute inset-0 hover:scale-105 transition-transform duration-500"
       draggable={false}
     />
   ) : (

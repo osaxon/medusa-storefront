@@ -1,6 +1,6 @@
 import { useContext, useState } from "react"
 import StoreContext from "../../../../lib/context/store-context"
-import styles from "./style.css"
+import styles from "./klarna.module.css"
 
 export const KlarnaCheckoutComponent = ({}) => {
   // Only show the Authorization button if there is a token
